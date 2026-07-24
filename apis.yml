@@ -1,7 +1,28 @@
 aid: changetip
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/changetip.png
 name: ChangeTip
-description: ChangeTip is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ChangeTip was a Bitcoin micropayments and social-tipping service built by ChangeCoin,
+  Inc. (San Francisco), founded in 2013. It let people send small bitcoin tips across
+  Twitter, Reddit, YouTube, Twitch, Facebook, Slack, email, and text by replying with
+  an amount, settling the micropayment behind the scenes to a hosted wallet. ChangeTip
+  published an open API and first-party client libraries (Python and JavaScript) so
+  the community could build tipping integrations and pair external wallets. The company
+  raised roughly $3.5M and was backed by 500 Startups, Pantera Capital, and Gil Penchina.
+  ChangeCoin was acquired by Airbnb in 2016 and the tipping service was discontinued in
+  November 2016; the site now serves only a shutdown notice with balance withdrawal. This
+  profile is retained as a historical/defunct provider record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/changetip/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,20 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Bitcoin
+- Cryptocurrency
+- Micropayments
+- Payments
+- Tipping
+- Social Media
+- Wallet
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://changetip.com
+  url: https://www.changetip.com
+- type: GitHubOrganization
+  url: https://github.com/changecoin
+- type: Packages
+  url: packages/changetip-packages.yml
+- type: SDKs
+  url: packages/changetip-packages.yml
+- type: DomainSecurity
+  url: security/changetip-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

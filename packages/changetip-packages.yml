@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: registry.npmjs.org, pypi.org, github.com/changecoin
+note: >-
+  ChangeTip (ChangeCoin, Inc.) was acquired by Airbnb in 2016 and the service was
+  discontinued; these first-party client libraries remain published on the public
+  registries but are unmaintained and the underlying API is no longer operational.
+packages:
+- language: python
+  registry: pypi
+  name: changetip
+  url: https://pypi.org/project/changetip/
+  install: pip install changetip
+  source: https://github.com/changecoin/changetip-python
+  official: true
+  note: Author "ChangeCoin, Inc."; first-party helper library.
+- language: javascript
+  registry: npm
+  name: changetip
+  url: https://www.npmjs.com/package/changetip
+  install: npm install changetip
+  source: https://github.com/changecoin/changetip-javascript
+  official: true
+  version: 0.1.2
+  note: ChangeTip API for NodeJS; repo under the changecoin org.
+- language: javascript
+  registry: npm
+  name: passport-changetip
+  url: https://www.npmjs.com/package/passport-changetip
+  install: npm install passport-changetip
+  source: https://github.com/martindale/passport-changetip
+  official: false
+  note: Community Passport OAuth strategy by Eric Martindale (not the changecoin org).
