@@ -52,7 +52,7 @@ tags:
 - Micropayments
 - Payments
 - Tipping
-- Social-Media
+- Social Media
 - Wallets
 - Defunct
 tags_raw:
@@ -65,6 +65,7 @@ tags_raw:
 - Social Media
 - Wallet
 - Defunct
+- Social-Media
 apis: []
 maintainers:
 - FN: Kin Lane
